@@ -1,4 +1,4 @@
-'use strict'; /* ejecuta todos los modelos de db */
+'use strict'; /* ejecuta todos los modelos y los pone a disposición de nuestra aplicación*/
 
 const fs = require('fs');
 const path = require('path');

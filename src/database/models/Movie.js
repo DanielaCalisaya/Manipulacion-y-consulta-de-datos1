@@ -8,11 +8,11 @@ module.exports = (sequelize, dataTypes) => {
 
     const config = {
         tableName: "movies" /* podrias no ponerlo pero para no tener problemas ponemos el nombre de la columna */
-    }
+    };
 
     const Movie = sequelize.define(alias, cols, config)
 
 
 
     return Movie;
-}
+} 

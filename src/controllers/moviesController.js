@@ -6,4 +6,3 @@ module.exports = {
         .then((genres) => res.send(genres))
     }
 }
-

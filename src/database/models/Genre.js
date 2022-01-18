@@ -14,7 +14,7 @@ module.exports = (sequelize, dataTypes) => {
             allowNull: false
         },
         ranking: {
-            type: dataTypes.STRING(10).UNSIGNED,
+            type: dataTypes.INTEGER(10).UNSIGNED,
             allowNull: false,
             unique: true
         },
@@ -25,7 +25,7 @@ module.exports = (sequelize, dataTypes) => {
         }
     };
 
-    const config = {
+    const config = { /* si la tabla no requiere timestamp(etapas de tiempo) podemos escribirlo y le asignamos false */
         tableName: "genres", /* podrias no ponerlo pero para no tener problemas ponemos el nombre de la columna */
         createdAt: "created_at",
         updatedAt: "updated_at"
@@ -37,4 +37,5 @@ module.exports = (sequelize, dataTypes) => {
 
     return Genre;
 }
+
 /* f2 para modificar tods las palabras */
