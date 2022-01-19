@@ -22,23 +22,23 @@ module.exports = (sequelize, dataTypes) => {
            allowNull: false,
            defaultValue: 0
        },
-       release_date: { /* ----------------- */
-           type: dataTypes.DATETIME,
+       release_date: { 
+           type: dataTypes.DATE,
            allowNull: false
        },
        length: {
            type: dataTypes.INTEGER(10).UNSIGNED,
-           defaultValue: null
+           defaultValue: null /* no hace falta */
        },
-       genre_id: { /* ---------------------- */
+       genre_id: { 
            type: dataTypes.INTEGER(10).UNSIGNED,
-           foreignKey: true,
-           defaultValue: null
+           foreignKey: true, /* ---- */
+           defaultValue: null /* --- */
        }
     };
 
     const config = {
-        tableName: "movies", /* podrias no ponerlo pero para no tener problemas ponemos el nombre de la columna */
+        tableName: "movies",
         createdAt: "created_at",
         updatedAt: "updated_at"
     };
