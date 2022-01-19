@@ -1,5 +1,6 @@
 const db = require('../database/models');
-const { Op } = require('sequelize');
+const { Op } = require('sequelize'); /* destructuración del dataBase */
+
 
 module.exports = {
     list: (req, res) => {
