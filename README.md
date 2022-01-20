@@ -149,4 +149,4 @@ manipular nuestras tablas.
 
 ## Clase 79 y 80
 
-## Ubicación -> Programación/TRABAJOS PRACTICOS/Modelos y consultas básicas-tp
+## Ubicación -> Programación/TRABAJOS PRACTICOS/Manipulación y consulta de datos-Tp1
