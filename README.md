@@ -1,4 +1,4 @@
-# *Modelos y consultas básicas*
+# *MAnipulación y consulta de datos Tp 1*
 
 ![portada](/public/img/cover.png)
 
