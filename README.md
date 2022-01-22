@@ -1,4 +1,4 @@
-# *MAnipulación y consulta de datos Tp 1*
+# *Modelos y consultas básicas Tp 1*
 
 ![portada](/public/img/cover.png)
 
@@ -149,4 +149,4 @@ manipular nuestras tablas.
 
 ## Clase 79 y 80
 
-## Ubicación -> Programación/TRABAJOS PRACTICOS/Manipulación y consulta de datos-Tp1
+## Ubicación -> Programación/TRABAJOS PRACTICOS/Modelos y consultas básicas-Tp1
