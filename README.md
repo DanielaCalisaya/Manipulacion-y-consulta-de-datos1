@@ -10,6 +10,7 @@ escalable. El objetivo será el de únicamente listar y mostrar la información,
 ello deberemos establecer la conexión con la base de datos previamente.
 ¡Buena suerte!😎👍✨
 
+## M6 C31
 
 ## Clase 79 y 80
 
