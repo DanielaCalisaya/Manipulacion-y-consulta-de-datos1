@@ -10,8 +10,9 @@ Instalaremos Sequelize, este es un ORM que ayuda a conectarnos e interactuar con
 Este ORM es un paquete de Node.js que está disponible para su instalación a través de npm. 
 Después pasamos a la creación de los modelos, esta es la forma de explicarle a Sequelize cómo son nuestras tablas en nuestra base de datos.
 
-Se podrá ver un listado de todas las películas que hay en la base de datos, a su vez se podrá ver el detalle de las mismas. Linea 88 questions
+Se podrá ver un listado de todas las películas que hay en la base de datos, a su vez se podrá ver el detalle de las mismas. Se listarán todos los géneros de películas, y también habrá una vista para mostrar las películas más nuevas y las de mayor ranking. 
 
+Link deployed to Heroku: 
 
 ## M6 C31
 
